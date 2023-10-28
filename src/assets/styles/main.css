@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #e2d2f2; */
+    background-color: #ce19eb;
+}
+
+.navbar .demo-logo {
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+}
+
+.navbar .demo-logo img {
+    width: 100px;
+}
+
+.navbar .nav-item {
+    color: #fff;
+    margin-right: 10px;
+    justify-items: flex-end;
+}
+
+.navbar .nav-item:hover {
+    color: #000;
+}
+
+.active-menu {
+    color: #000 !important;
+}
+
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+
+.eveluate-moment .title {
+    font-size: 18px;
+}
+
+.eveluate-moment .video-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 425px) {
+    .nav-item {
+        display: none;
+    }
+}
+
+.layout {
+    overflow: auto;
+    min-height: 65vw;
+    left: 0;
+}
+
+.moment-detection .title {
+    font-size: 18px;
+}
+
+.moment-detection .camera-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.site-layout-content {
+    height: 100vh;
+}
+
+.footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
